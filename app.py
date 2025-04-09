@@ -1,3 +1,4 @@
+from addition import additionnum
 print('Hello')
 a=int(input("enter first number: "))
 b=int(input("enter second number: "))
@@ -10,8 +11,8 @@ c=input("""
 """)
 if c=="1":
     # please make addition feature-> vinayak
-    addition(a , b)
-elif c=="2":
-    substraction(a , b)
+    print(additionnum(a , b))
+# elif c=="2":
+#     substraction(a , b)
 
 # elif c==
